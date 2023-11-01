@@ -1,4 +1,8 @@
-const Countries = ({ selected }) => (
+/* eslint-disable */
+import React from 'react'
+
+const Countries = ({ selected }) => {
+    return(<>
     <select className="form-select form-select-lg rounded-0 border text-muted" name="country" id="country" defaultValue={selected}>
         <option value="">Please Select</option>
         <option value="GB">United Kingdom</option>
@@ -240,6 +244,8 @@ const Countries = ({ selected }) => (
         <option value="ZM">Zambia</option>
         <option value="ZW">Zimbabwe</option>
     </select>
-);
+    </>)
+}
 
 export default Countries;
+/* eslint-disable */
