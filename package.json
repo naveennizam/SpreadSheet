@@ -16,6 +16,7 @@
     "semantic-ui-css": "^2.5.0",
     "semantic-ui-react": "^2.1.4",
     "tinify": "^1.7.1",
+    "uglify-js": "^3.17.4",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
